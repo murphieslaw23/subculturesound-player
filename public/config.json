@@ -1,0 +1,31 @@
+{
+  "api_url" : "https://subculturesound.de/api",
+  "title": "SUBCULTURESOUND - Only Underground Mixes",
+  "description" : "Live Radio 24/7 Mix Sets Only",
+  "manifest" : {
+    "short_name": "subculturesound",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "/?utm_source=pwa_homescreen",
+    "prompt_message": "Add a Home screen icon for easy access to our player",
+    "background_color": "#000000",
+    "theme_color": "#ffffff"
+  },
+  "player": {
+    "showLyrics": false
+  },
+  "showPlaylist" : false,
+  "socialBtn" : false,
+  "meta": {
+    "url" : "https://www.subculturesound.de",
+    "image" : "https://www.subculturesound.de/img/icon.png",
+    "locale" : "US_en"
+  },
+  "twitter" : {
+    "username" : null
+  },
+  "facebook" : {
+    "page_id" : null
+  },
+  "stationsFilterById": [0]
+}

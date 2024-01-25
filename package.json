@@ -1,0 +1,32 @@
+{
+  "name": "webplayer",
+  "version": "0.2.1",
+  "license": "GPL-3.0 License",
+  "email": "contact@jelliti.me",
+  "url": "https://oussama.jelliti.me",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^1.6.6",
+    "core-js": "^3.35.1",
+    "debounce": "^2.0.0",
+    "register-service-worker": "^1.7.2",
+    "serve": "^14.2.1",
+    "standardized-audio-context": "^25.3.63",
+    "vue": "^3.4.15",
+    "vue-i18n": "^9.9.0",
+    "vue-router": "^4.2.5",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-pwa": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "sass": "^1.70.0",
+    "sass-loader": "^14.0.0",
+    "vue-template-compiler": "^2.7.16"
+  }
+}
